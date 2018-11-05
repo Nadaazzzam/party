@@ -1,0 +1,159 @@
+body
+{
+	font-family: 'Roboto', sans-serif !important;
+	color: white !important;
+}
+.home
+{
+	height:660px;
+	width: 100%;
+	background-image: url(images/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.cover
+{
+	 width: 100%;
+    height: 100%;
+    background-color:rgba(214, 46, 51 , 0.6);
+
+}
+.sidenav
+{
+	background-color: darkslategray;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+	background-color:  rgb(65, 70, 88);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+	overflow: hidden;
+	font-size:  20px;
+
+}
+.sidenav a 
+{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none !important;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+a:hover 
+{
+    color:rgba(214, 46, 51 , 0.4) !important;
+}
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main h2
+{
+	font-size: 60px;
+	padding-top: 100px;
+}
+
+#acc
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+
+#acc h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+
+#acc div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+	color: black;
+}
+
+
+#countsec
+{
+	background-image: url(images/inv.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 300px;
+}
+
+.tim 
+{
+    padding: 50px;
+    border: 1px solid #FFF;
+}
+
+.cover1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(214, 46, 51 , 0.6);
+	padding: 50px;
+
+}
+
+#hire-me 
+{
+	 
+	padding: 40px;
+	margin-top: 150px;
+}
+#hire-me h2,h3
+{
+	color: black !important;
+}
+
+.head
+{
+	text-align: center;
+	margin:50px 0px;
+}
+.red
+{
+	    color: #D62E33 !important;
+
+}
+
+.brdr
+
+{ 
+	margin-top: 90px;
+	margin-right:14px;
+	padding: 10px;
+	border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#hire-me i:hover
+{
+	background-color: rgb(214, 46, 51);
+	color: white;
+	border: none;
+
+}
